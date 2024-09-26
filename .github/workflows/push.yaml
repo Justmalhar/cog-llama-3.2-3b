@@ -10,9 +10,9 @@ on:
         required: true
         default: "justmalhar/meta-llama-3.2-3b"
   # # Uncomment these lines to trigger the workflow on every push to the main branch
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 jobs:
   push_to_replicate:
